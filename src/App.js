@@ -1,15 +1,12 @@
+import React from "react";
+import Header from "./commonAction//layout/header/Header";
+import "./styles/style.scss";
+
 function App() {
   return (
-    <div className="App">
-      <div className="row">
-        <div className="col-6">
-          <div className="text-center">Hello World !</div>
-        </div>
-        <div className="col-6">
-          <div className="text-center">Hello World !</div>
-        </div>
-      </div>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
 
