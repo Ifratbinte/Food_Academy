@@ -1,0 +1,52 @@
+@import "variable.scss";
+// .pair-buttons {
+//   display: flex;
+//   align-items: center;
+//   flex-wrap: wrap;
+//   margin: -0.25rem -0.75rem;
+//   padding-top: 0.5rem li {
+//     padding: 0.5rem 1.25rem;
+//   }
+// }
+
+.btn {
+  &.fa-btn-primary {
+    font-size: 20px;
+    line-height: 16px;
+    font-weight: $fw-bold;
+    color: $white;
+    // font-family: Montserrat;
+    background-color: $fa-btn-primary;
+    border: 2px solid $fa-btn-primary;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: rgb(153 153 153) 0px 0px 0px 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: none 0s ease 0s;
+    margin: 0px;
+    padding: 12px 35px;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
+  }
+  &.fa-btn-outline-primary {
+    font-size: 20px;
+    line-height: 14px;
+    font-weight: $fw-bold;
+    color: $white;
+    background-color: transparent;
+    border: 2px solid $white;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: rgb(153 153 153) 0px 0px 0px 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: none 0s ease 0s;
+    margin: 0px;
+    padding: 12px 35px;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
+  }
+}

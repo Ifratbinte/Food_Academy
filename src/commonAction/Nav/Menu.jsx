@@ -30,3 +30,14 @@ function HeaderMenu() {
   );
 }
 export default HeaderMenu;
+
+{/* <NavLink to={item.path} key={index}>
+                <li className="" activeClassName="sidebar-menu active">
+                  <a href="" className="menu-item-single">
+                    <div className="icon">{item.icon}</div>
+                    <span style={{ display: isOpen ? "none" : "block" }} className="sidebar-navtext">
+                      {item.name}
+                    </span>
+                  </a>
+                </li>
+              </NavLink> */}
